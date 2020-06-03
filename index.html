@@ -18,7 +18,7 @@
 <script type="text/javascript">
 	
 	$.ajax("info.txt").done(function(data){
-		alert(data);
+		$("p").html(data)
 	}).fail(function(){
 		alert("dumb")
 	})
